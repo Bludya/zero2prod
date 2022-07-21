@@ -16,6 +16,8 @@ serde = { version = "1.0.140", features = ["derive"] }
 sqlx-cli = { version = "0.6.0", features = ["postgres"] }
 tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
 config = "0.13.1"
+chrono = "0.4.19"
+uuid = { version = "1.1.2", features = ["v4"] }
 
 [dependencies.sqlx]
 version = "0.6"
